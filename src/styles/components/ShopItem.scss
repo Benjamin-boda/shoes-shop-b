@@ -1,0 +1,78 @@
+.shopitem__content {
+    height: 85vh;
+    width: 100%;
+}
+
+.shopitem {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 80rem;
+    padding: $l-size 0 0 0;
+
+    @media (min-width: $desktop-breakpoint) {
+        flex-direction: row;
+    }
+}
+
+.shopitem__border {
+    border: black .2rem solid;
+    width: 100%;
+}
+
+.shopitem__image {
+    -moz-box-shadow: 10px 10px 5px 0px #656565;
+    -webkit-box-shadow: 10px 10px 5px 0px #656565;
+    -o-box-shadow: 10px 10px 5px 0px #656565;
+    box-shadow: 10px 10px 5px 0px #656565;
+    background: white;
+    border-radius: .5rem;
+    width: 20rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        width: 30rem;
+    }
+    
+}
+
+.shopitem__name {
+    font-family: "MonserratBold";
+    font-size: $font-size-medium;
+    text-align: center;
+}
+
+.shopitem__select {
+    border-radius: .5rem;
+    font-family: "MonserratRegular";
+    font-size: $font-size-small;
+    padding: $xs-size;
+}
+
+.shopitem__size {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopitem__size__text {
+    font-size: $font-size-small;
+    font-family: "MonserratRegular";
+    margin: 0 $m-size 0 0;
+}
+
+.shopitem__button {
+    -moz-box-shadow: 10px 10px 5px 0px #656565;
+    -webkit-box-shadow: 10px 10px 5px 0px #656565;
+    -o-box-shadow: 10px 10px 5px 0px #656565;
+    box-shadow: 10px 10px 5px 0px #656565;
+    background: grey;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    font-family: "MonserratBold";
+    font-size: $font-size-small;
+    margin: $xl-size;
+    padding: $xs-size;
+}

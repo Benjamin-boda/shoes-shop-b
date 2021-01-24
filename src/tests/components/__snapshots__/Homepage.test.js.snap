@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="homepage__overflow"
+  >
+    <div>
+      <img
+        class="homepage"
+      />
+      <p
+        class="homepage__text"
+      >
+        Check out our new products
+      </p>
+    </div>
+    <button
+      class="homepage__next"
+    >
+      <img
+        class="homepage__next__image"
+      />
+    </button>
+    <button
+      class="homepage__precedent"
+    >
+      <img
+        class="homepage__precedent__image"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;

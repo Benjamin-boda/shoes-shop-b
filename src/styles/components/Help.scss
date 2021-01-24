@@ -1,0 +1,40 @@
+.help {
+    margin: 0 $m-size;
+    max-width:90rem;
+
+    @media (min-width: $desktop-breakpoint-large) {
+        margin: 0 auto;
+    }
+}
+
+.help__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.help__image {
+    width: 15rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        width: 25rem;
+    }
+}
+
+.help__title {
+    font-family: "MonserratBold";
+    font-size: $font-size-medium;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-large;
+    }
+}
+
+.help__p {
+    font-family: "MonserratRegular";
+    font-size: $font-size-xsmall;
+    text-align: justify;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: initial;
+    }
+}

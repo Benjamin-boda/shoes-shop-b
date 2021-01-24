@@ -1,0 +1,69 @@
+.contact {
+    margin: 0 $m-size;
+    max-width:90rem;
+
+    @media (min-width: $desktop-breakpoint-large) {
+        margin: 0 auto;
+    }
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__title {
+    font-family: "MonserratBold";
+    font-size: $font-size-medium;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-large;
+    }
+}
+
+.contact__image {
+    width: 15rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        width: 25rem;
+    }
+}
+
+.contact__form__subject {
+    border: 1px solid #ccc;
+    border-radius: .4rem;
+    box-sizing: border-box;
+    font-family: "MonserratRegular";
+    margin: 0 0 $l-size 0;
+    padding: 1rem;
+    resize: vertical;
+    width: 100%;
+}
+
+.contact__form__description {
+    border: 1px solid #ccc;
+    border-radius: .4rem;
+    box-sizing: border-box;
+    font-family: "MonserratRegular";
+    margin: 0 0 $l-size 0;
+    padding: 3rem 3rem 3rem 1rem;
+    resize: vertical;
+    width: 100%;
+}
+
+.contact__form__button {
+    background: grey;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    font-family: "MonserratBold";
+    font-size: $font-size-xsmall;
+    padding: $xs-size;
+    width: 20%;
+}

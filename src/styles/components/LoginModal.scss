@@ -1,0 +1,32 @@
+.loginmodal {
+    align-items: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: $xl-size auto 0 auto;
+    max-width: 70rem;
+}
+
+.loginmodal__title {
+    color: $purple;
+    font-family: "MonserratBold";
+    font-size: $font-size-medium;
+    margin: $s-size $xl-size;
+    text-align: center;
+}
+
+.loginmodal__button {
+    -moz-box-shadow: 10px 10px 5px 0px #656565;
+    -webkit-box-shadow: 10px 10px 5px 0px #656565;
+    -o-box-shadow: 10px 10px 5px 0px #656565;
+    box-shadow: 10px 10px 5px 0px #656565;
+    background: grey;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    font-family: "MonserratRegular";
+    font-size: $font-size-small;
+    margin: $s-size $xl-size;
+    padding: $xs-size;
+}

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="header"
+  >
+    <img
+      class="header__logo"
+    />
+    <a
+      class="header__link"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      class="header__link"
+      href="/"
+    >
+      Shop
+    </a>
+    <a
+      class="header__link"
+      href="/contact"
+    >
+      Contact
+    </a>
+    <a
+      class="header__link"
+      href="/help"
+    >
+      Help
+    </a>
+    <div
+      class="header__account"
+    >
+      <a
+        class="header__link__account"
+        data-testid="account"
+        href="/"
+      >
+        Login
+      </a>
+    </div>
+    <div>
+      <a
+        href="/"
+      >
+        <img
+          class="header__bag"
+        />
+      </a>
+      <p
+        class="header__bag__counter"
+      >
+        3
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

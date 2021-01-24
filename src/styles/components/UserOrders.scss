@@ -1,0 +1,59 @@
+.order__content {
+    margin: $l-size $m-size 0 $m-size;
+    max-width: 70rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: $l-size auto 0 auto;
+    }
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.order__group {
+    border: grey solid .1rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    padding: $s-size;
+}
+
+.order__info {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.order_image {
+    -moz-box-shadow: 2px 2px 2px 0px #656565;
+-webkit-box-shadow: 2px 2px 2px 0px #656565;
+-o-box-shadow: 2px 2px 2px 0px #656565;
+box-shadow: 2px 2px 2px 0px #656565;
+    width: 3rem;
+}
+
+.order__date {
+    border: grey solid .1rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    cursor: pointer;
+    font-family: "MonserratBold";
+    font-weight: $font-size-medium;
+    margin: $l-size 0 0 0;
+    padding: $s-size 0 $s-size $s-size;
+}
+
+.order__text {
+    font-family: "MonserratRegular";
+    font-weight: $font-size-small;
+}
+
+.order__select {
+    border-radius: .5rem;
+    font-family: "MonserratRegular";
+    font-size: $font-size-xsmall;
+    padding: $xs-size;
+}

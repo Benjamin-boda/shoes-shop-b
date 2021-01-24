@@ -1,0 +1,65 @@
+.homepage {
+    height: 86vh;
+    width: 100%;
+    z-index: 0;
+}
+
+.homepage__overflow {
+    height: 85vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+.homepage__text {
+    color: white;
+    font-family: "MonserratBlack";
+    font-size: $font-size-medium;
+    padding-bottom: $s-size;
+    position: relative;
+    right: -5vh;
+    top: -20vh;
+    z-index: 10;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-large;
+    }
+}
+
+.homepage__precedent {
+    background: none;
+    border: none;
+    left: -5rem;
+    position: relative;
+    text-decoration: none;
+    top: -73vh;
+    width: 4rem;
+    z-index: 10;
+}
+
+.homepage__next {
+    background: none;
+    border: none;
+    left: 87vw;
+    position: relative;
+    text-decoration: none;
+    top: -73vh;
+    width: 4rem;
+    z-index: 10;
+
+    @media (min-width: $desktop-breakpoint) {
+        left: 94vw;
+    }
+
+    @media (min-width: $desktop-breakpoint-large) {
+        left: 97vw;
+    }
+}
+
+.homepage__precedent__image {
+    width: 4rem;
+}
+
+.homepage__next__image {
+    transform: rotate(180deg);
+    width: 4rem;
+}

@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="shopitem__content shop__shoes__3"
+  >
+    <div
+      class="shopitem"
+    >
+      <div>
+        <div>
+          <img
+            class="shopitem__image"
+          />
+          <p
+            class="shopitem__name"
+          >
+            shoes 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <div
+          class="shopitem__size"
+        >
+          <p
+            class="shopitem__size__text"
+          >
+            Size : 
+          </p>
+          <select
+            class="shopitem__select"
+            name="size"
+          >
+            <option
+              value=""
+            >
+              Select your size
+            </option>
+            <option
+              value="37"
+            >
+              37
+            </option>
+            <option
+              value="38"
+            >
+              38
+            </option>
+            <option
+              value="39"
+            >
+              39
+            </option>
+            <option
+              value="40"
+            >
+              40
+            </option>
+            <option
+              value="41"
+            >
+              41
+            </option>
+            <option
+              value="42"
+            >
+              42
+            </option>
+            <option
+              value="43"
+            >
+              43
+            </option>
+            <option
+              value="44"
+            >
+              44
+            </option>
+            <option
+              value="45"
+            >
+              45
+            </option>
+            <option
+              value="46"
+            >
+              46
+            </option>
+            <option
+              value="47"
+            >
+              47
+            </option>
+          </select>
+        </div>
+        <button
+          class="shopitem__button"
+          data-testid="button"
+        >
+          Add to bag
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

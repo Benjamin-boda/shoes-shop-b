@@ -1,0 +1,92 @@
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.shop__shoes {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: center;
+    margin: 0;
+    text-decoration: none;
+    width: 100%;
+
+    @media (min-width: $desktop-breakpoint-large) {
+        height: initial;
+        width: 49.3vw;
+    }
+}
+
+.shop__shoes__0 {
+    background: $cream;
+}
+
+.shop__shoes__0:hover {
+    background: darken($cream, 5%);
+}
+
+.shop__shoes__1 {
+    background: $cashmere;
+}
+
+.shop__shoes__1:hover {
+    background: darken($cashmere, 5%);
+}
+
+.shop__shoes__2 {
+    background: $flora;
+}
+
+.shop__shoes__2:hover {
+    background: darken($flora, 5%);
+}
+
+.shop__shoes__3 {
+    background: $ivory;
+}
+
+.shop__shoes__3:hover {
+    background: darken($ivory, 5%);
+}
+
+.shop__image {
+    height: auto;
+    transition: transform .3s;
+    width: 25vw;
+}
+
+.shop__image:hover {
+    transform: scale(1.2);
+}
+
+.shop__name {
+    color: white;
+    font-family: "MonserratRegular";
+    font-size: $font-size-xsmall;
+}
+
+.shop__pages {
+    background:lighten(#32485C, 20%);
+    height: 5vh;
+    text-align: center;
+
+    @media (min-width: $desktop-breakpoint-large) {
+        height: initial;
+    }
+}
+
+.shop__pages__link {
+    color: white;
+    font-family: "MonserratBlack";
+    font-size: $font-size-small;
+    margin: 0 $s-size;
+    text-decoration: none;
+}
+
+.shop__pages__link:hover {
+    color: black;
+}

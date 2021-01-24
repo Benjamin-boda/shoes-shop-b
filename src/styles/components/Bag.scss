@@ -1,0 +1,93 @@
+.bag__content {
+    margin: $l-size $m-size 0 $m-size;
+    max-width: 70rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: $l-size auto 0 auto;
+    }
+}
+
+.bag__box {
+    border: .1rem solid grey;
+}
+
+.bag {
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size 0;
+
+    @media (min-width: $desktop-breakpoint) {
+        justify-content: center;
+    }
+}
+
+.bag__image {
+    width: 4rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: 0 $xl-size;
+        width: 3rem;
+    }
+}
+
+.bag__name {
+    font-family: "MonserratRegular";
+    font-size: $font-size-xsmall;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: 0 $xl-size;
+    }
+}
+
+.bag__select {
+    border-radius: .5rem;
+    font-family: "MonserratRegular";
+    font-size: 1rem;
+    padding: $xs-size;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: 0 $xl-size;
+    }
+}
+
+.bag__button {
+    background: none;
+    border: none;
+    text-decoration: none;
+}
+
+.bag__cross__button {
+    width: 2rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: 0 $l-size;
+    }
+}
+
+.bag__price {
+    font-family: "MonserratRegular";
+    font-size: $font-size-small;
+    text-align: end;
+}
+
+.bag__payment__div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bag__payment {
+    background: #613A43;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    font-family: "MonserratBold";
+    font-size: $font-size-small;
+    padding: $s-size;
+}
+
+.bag__empty {
+    font-family: "MonserratRegular";
+    font-size: $font-size-small;
+    margin: 0 0 0 $m-size;
+    padding: $s-size 0;
+}
