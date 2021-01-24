@@ -2,7 +2,7 @@
 
 Shoes-shop is a e-shop of sneakers.
 
-Link : https://game-manager-boda.herokuapp.com/
+Link : https://shoes-shop-b.herokuapp.com/
 
 ## Installation
 To get the project up and running, and view components in the browser, complete the following steps:
