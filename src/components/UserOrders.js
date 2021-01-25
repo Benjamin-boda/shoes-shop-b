@@ -22,8 +22,8 @@ export const UserOrders = () => {
         <div className="order__content">
             <select className="order__select" name="date" onChange={(e) => setDateChange(e.target.value)}>
                 <option value="">--Sort by bought date--</option>
-                <option value="oldDate">Old to new</option>
-                <option value="newDate">New to old</option>
+                <option value="newDate">Old to new</option>
+                <option value="oldDate">New to old</option>
             </select>
 
             {ordersByBoughtDate.map((orders) => 
